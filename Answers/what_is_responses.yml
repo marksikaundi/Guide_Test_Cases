@@ -1,0 +1,56 @@
+version: "3.1"
+responses:
+  utter_what_is/guidizy:
+    - text: |
+        1. **Guidizy** enables **human-touch at crucial point on customers's online journeys.
+        2. Guidizy is **Video calling software**
+
+  utter_what_is/use_of_Guidizy:
+    - text: |
+        Users visit your web site for a purpose, but significant of them drop off for any of the below reasons
+        1. 1) Questions --> Have some Questions to get clarity on.
+        2. 2) Can't Decide --> Prefer to speak to person (not chat bots) for instant guidance to make informed decision especially for high-value purchases
+        3. 3) Can't Wait --> In hurry / Impatient to call and wait on long customer care calls
+        4. 4) Loss of Focus --> Get distracted as the doorbell / mobile rang or because of something else
+
+        
+        That's where **Guidizy**, with its configurable Human-BOT profile, fits-in to prevent those online custoemr drop offs.
+        You can design the BOT behaviour and offer tailored rich online experience based on customer type and context.
+        Further you can train Human-BOT on your products, services knowledgebase, and let the BOT respond to customers' questions as a first line of defence before your Agents are involved in Audio/Video call with your customers.
+
+        SO It's pretty much as follows---
+        1. a) First BOT handles customers' Questions and if BOT realizes it's yet to be trained on Questions being asked by Customer
+        2. b) BOT offers Agent-Handover Option to Customer to join Audio / Video call with Agent
+        3. c) Customer's Chat window becomes Audio/Video conference room with Agent
+        4. d) Customer gets enhanced online experience of browsing the site, screen sharing and talking with Agent on call, there by getting guided assistance for their online journey.
+
+  utter_what_is/human_bot:
+    - text: |
+        It's an **AI-BOT** trained with knowledge base of your products / servies along with fall back handover,if BOT fails to answer customers questions, to human Agent with choice of Audio / Video call.
+
+  utter_what_is/use_of_human_bot:
+    - text: |
+        **Human-BOT** is a combination of BOT and Human at work to provide a Humanized Audio/Video call to online customers, to prevent Online Customer Drop Offs. Here's how it works:
+        
+        1. **BOT** handles customer questions and tries to provide answers.
+        2. If the **BOT** realizes it's yet to be trained on questions being asked by the customer, it offers an **Agent-Handover Option** to join an Audio/Video call with a human agent.
+        3. The customer's chat window becomes an Audio/Video conference room with the agent.
+        4. The customer gets an enhanced online experience of browsing the site, screen sharing and talking with the agent on call, thereby getting guided assistance for their online journey.
+        
+        Human-BOT, trained on your product & service knowledge base, creates the first line of defense before your agents are involved in Audio/Video call with your customers. By training and making your BOT smarter day by day, you can reduce agent hand-overs and optimize agent time.
+    
+
+
+
+  utter_what_is/BOT_Profile:
+    - text: |
+         **BOTprofile** pretty much captures the behavior of BOT and what level and kind of support does it offer to its customers.
+         1. BOT Profile is configurable through Agent Application.
+         2. For example a typical BOT profile can be like, the BOT supports Q&A session with Customers along with providing options of Call-Back, Appointment booking to customers
+         3. BOT profile pretty much cpatures the essence of behavior our BOT and what level and kind of support does it offer to its customers.
+         4. BOT Profile is configurable through Agent APplication.
+         5. For example a typical BOT profile can be like, the BOT supports Q&A session to customers via Web, WhatsApp along with providing options of Call-Back, Appointment booking to customers"
+
+  utter_what_is/widget:
+    - text: |
+         response to widget sai needs to write

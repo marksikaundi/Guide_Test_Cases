@@ -1,0 +1,165 @@
+version: "3.1"
+nlu:
+- intent: what_is/guidizy
+  examples: |
+    - Can you explain what guidizy is?
+    - Is guidizy a new concept or has it been around for a while?
+    - what is guidizy all about?
+    - can you brief about guiidzy?
+    - How is guidizy used in different industries?
+    - Can you give an example of guidizy in practice?
+    - what is your product?
+    - can you explain Guidizy?
+    - can you brief guidizy?
+    - what is guidizy?
+    - can you explain your product?
+    - can  you brief your product
+    - How can guidizy be applied?
+    - What is the role of technology in guidizy?
+    - What are the considerations related to guidizy?
+    - How does guidizy impact ?
+    - How can guidizy be integrated ?
+    - What is the  outlook for guidizy?
+    - What are the legal considerations related to guidizy?
+
+- intent: what_is/use_of_Guidizy
+  examples: |
+    - what is the use of Guidizy?
+    - How can guidizy be used ?
+    - How can guidizy be used to promote ?
+    - why do i need Guidizy?
+    - Where is Guidizy Useful?
+    - what makes Guidizy special from other chat widgets?
+    - can you expliain the use of Guidizy?
+    - when do i need Guidizy?
+    - What is the purpose of using Guidizy?
+    - How can Guidizy be used to improve  operations?
+    - In what ways can Guidizy be used to create value?
+    - How can Guidizy be used to drive growth?
+    - What are the benefits of using Guidizy in decision-making?
+    - What is the role of Guidizy in strategic planning?
+    - In what ways can Guidizy be used to improve customer satisfaction?
+    - What are the best practices for using Guidizy?
+    - How can Guidizy be used to create a competitive advantage?
+    - What are the implications of using Guidizy for risk management?
+    - What are the potential applications of Guidizy ?
+    - How can Guidizy be used to improve customer retention?
+    - How can Guidizy be used to improve  management?
+    - What are the potential applications of Guidizy in the public sector?
+    - How does Guidizy impact product development?
+    - How can Guidizy be used to improve employee engagement?
+    - What are the legal considerations related to using Guidizy?
+    - What are the potential applications of Guidizy in the automotive industry?
+    - How can Guidizy be used to improve service quality?
+    - How can Guidizy be used to improve sustainability reporting?
+
+- intent: what_is/human_bot
+  examples: |
+    - what is human bot?
+    - human bot?
+    - what is Human BOT all about?
+    - can you brief about Human-BOT?
+    - can you explain what is Human-BOT all about?    
+    - What is a human bot?
+    - How does a human bot differ from a traditional chatbot?
+    - What are the benefits of using a human bot?
+    - Can a human bot replace a live human agent entirely?
+    - How does a human bot work with live agents on a team?
+    - Are there any limitations to what a human bot can do compared to a live agent?
+    - Can a human bot handle complex customer issues?
+    - How can a human bot improve the customer experience?
+    - Are there any industries or use cases where a human bot is particularly useful?
+    - How can a business implement a human bot in their customer service strategy?
+    - Are there any challenges to using a human bot that businesses should be aware of?
+    - Can a human bot be customized to fit a company's brand voice and style?
+    - How does a human bot learn and improve over time?
+    - What kind of training and support do human bots require?
+    - How can a business measure the effectiveness of their human bot?
+    - Can a human bot work in multiple languages?
+    - How can a business handle sensitive customer information with a human bot?
+    - Are there any ethical concerns around using human bots in customer service?
+    - What kind of integrations can a human bot have with other business systems?
+    - How do customers react to interacting with a human bot instead of a live agent?
+  
+- intent: what_is/use_of_human_bot
+  examples: |
+    - can you explain the use of Human-BOT
+    - why i need HUman-Bot?
+    - brief me about HUman-Bot
+    - use of Humanbot?
+    - advatnage of Human-BOt?
+    - What is a human bot and how is it used?
+    - What are the benefits of using a human bot in customer service?
+    - How does a human bot differ from a traditional chatbot?
+    - How can a human bot enhance the customer experience?
+    - Can a human bot be used to improve customer retention?
+    - What industries are using human bots and for what purposes?
+    - Can a human bot be used to handle customer complaints and issues?
+    - How does a human bot work in conjunction with live agents?
+    - Can a human bot be customized to fit a company's branding and voice?
+    - Are there any limitations to what a human bot can do compared to a live agent?
+    - How does a human bot learn and improve over time?
+    - Are there any ethical considerations when using a human bot in customer service?
+    - How can businesses measure the success of their human bot implementation?
+    - Can a human bot work in multiple languages?
+    - How can businesses ensure the security of customer information when using a human bot?
+    - How does a human bot integrate with other business systems?
+    - How do customers typically respond to interacting with a human bot?
+    - Can a human bot be used for sales and marketing purposes?
+    - How can businesses effectively train their human bot to handle various scenarios?
+    - What kind of support is required to maintain a human bot in customer service?
+- intent: what_is/BOT_Profile
+  examples: |
+    - can you explain profile?
+    - can you explain about BOT profile?
+    - What is BOT Profile?
+    - BOT Profile?
+    - What is a BOT_Profile and what does it do?
+    - How is a BOT_Profile different from a regular user profile?
+    - What information is typically included in a BOT_Profile?
+    - What are the benefits of using a BOT_Profile in customer service?
+    - How can a BOT_Profile enhance the customer experience?
+    - Can a BOT_Profile be customized to fit a company's branding and voice?
+    - How does a BOT_Profile work in conjunction with a human bot?
+    - Can a BOT_Profile be used to improve customer retention?
+    - Are there any limitations to what a BOT_Profile can do compared to a live agent?
+    - How does a BOT_Profile help to personalize the customer experience?
+    - How does a BOT_Profile learn and improve over time?
+    - Are there any ethical considerations when using a BOT_Profile in customer service?
+    - How can businesses measure the success of their BOT_Profile implementation?
+    - Can a BOT_Profile work in multiple languages?
+    - How can businesses ensure the security of customer information when using a BOT_Profile?
+    - How does a BOT_Profile integrate with other business systems?
+    - How do customers typically respond to interacting with a BOT_Profile?
+    - Can a BOT_Profile be used for sales and marketing purposes?
+    - How can businesses effectively train their BOT_Profile to handle various scenarios?
+    - What kind of support is required to maintain a BOT_Profile in customer service?
+
+- intent: what_is/widget
+  examples: |
+    - what is Guidizy Widget?
+    - What is Widget?
+    - Widget?
+    - Guidizy Widget?
+    - can you explain about Guidizy Widget?
+    - Can you brief about widget?
+    - What is a widget and how does it work?
+    - How are widgets used on websites and mobile apps?
+    - What types of widgets are commonly used?
+    - Can widgets be customized to fit a company's branding and style?
+    - How do widgets differ from plugins and extensions?
+    - What are the benefits of using widgets in user interfaces?
+    - How can widgets improve the user experience?
+    - Are there any limitations to what widgets can do compared to native functionality?
+    - What are some examples of popular widgets in use today?
+    - How are widgets developed and integrated into websites and apps?
+    - How do widgets interact with other parts of a website or app?
+    - How can businesses measure the effectiveness of their widgets?
+    - Can widgets be used for marketing and advertising purposes?
+    - How can businesses ensure the security of their widgets?
+    - Can widgets be used for data collection and analysis?
+    - How can widgets be used to improve user engagement and retention?
+    - What are the ethical considerations when using widgets?
+    - How can businesses effectively train their teams to use widgets?
+    - Can widgets be used in combination with other technologies, such as chatbots or AI?
+    - What is the future of widgets in user interfaces?

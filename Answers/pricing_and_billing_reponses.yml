@@ -1,0 +1,25 @@
+version: "3.1"
+responses:
+  utter_pricing_and_billing/guidizy_minutes:
+    - text: |
+         1. **Guidizy** enables human-touch at crucial point on customers's online journeys.
+         2. Guidizy is Video calling software
+  utter_pricing_and_billing/agent_licensing:
+    - text: |
+       profile is to control widget dynamic behavior of widget
+  utter_pricing_and_billing/cancel_subscription:
+    - text: |
+        Please inject java script snippet we provide from our **C4H Profile screen.
+    - text: use Java Script
+  utter_pricing_and_billing/upgrade_downgrade_subscription:
+    - text: |
+         Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script
+  utter_pricing_and_billing/cancel_subscription_reduntant:
+    - text: |
+       Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script
+  utter_pricing_and_billing/change_subscription:
+    - text: |
+       Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script

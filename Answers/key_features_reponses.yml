@@ -1,0 +1,96 @@
+version: "3.1"
+responses:
+  utter_key_features/list:
+    - text: |
+       Following are the key features of Guidizy
+         1. **Human-BOT**-->Its AI-BOT equipped with fall back handover, if BOT fails to answer customers questions, to human Agent with choice of Audio / Video call.
+         2. Configurable **Human-BOT** Profiles -->
+         3.  **Web** and **WhatsApp**
+         4.  **Callback** to your Mobile and Appoitnment (Audio / Video call) booking
+         5. **Call Recording**
+         6. **Screen Sharing**
+         7. **Agent Anywhere**
+         8. **Call Forward** ( Online to landine or Mobile)
+
+  utter_key_features/human_bot:
+    - text: |
+         1. **Human-BOT** is combination of BOT and Human at work to provide the Humanzied Audio / Video call to online customers to prevent Online Customer Drop Offs.
+         2. SO It's pretty much as follows---
+         3. First BOT handles customers' Questions and if BOT realizes it's yet to be trained on Questions being asked by Customer
+         4. BOT offers Agent-Handover Option to Customer to join Audio / Video call with Agent
+         5. Customer's Chat window becomes Audio/Video conference room with Agent
+         6. Customer gets enhanced online experience of browsing the site, screen sharing and talking with Agent on call, there by getting guided assistance for their online journey.
+
+         
+         
+         1. So, Human-BOT , trained on your product & service knowledge base, creates that first line of defence before your Agents are involved in Audio/Video call with your customers.
+         2. Train and make your BOT smarter day by day by correcting where BOT failed leading to Agent hand-overs.
+         3. The smarter the BOT the lesser the Agent hand-overs, thereby optimizing your Agent time.
+         4. Btw, i my self Human-BOT trained on Guidizy product and features and i can do Agent-Handover, if iam not able to answer any of your questions.
+         5. Alternatively, if you want to experience our Agent-Handvoer Fetaure, then try our LIVE DEMO --> Agent Handover and follow the steps to get on Audio / Video call with our Agent.
+
+  utter_key_features/web_whatsapp:
+    - text: |
+        
+        1. One of the configurable aspect of Human-BOT is to support customers via Web and WhatsApp channels.
+        2. For now Web and WhatsApp are two channels supported.
+        3. If you are interacting with Human-BOT (i.e. me)  from Web Browser of your laptop / mobile / Tablet then you are interacting with me via Weh channel.
+        4. If you are intercating via WhatsApp then that's our WhatsApp channel being used.
+        5. Also whether the Human-BOT should support both Web and WhatsApp or not is configurable through BOTProfile configuration on our Agent Application.
+        6. Web to WhatsApp Switch --> Very soon i will start to support to switch channel from Web to WhatsApp. i.e., if you are chatting via Web and if you have to go out but still want to carryout the ongoing conversation across to WhatsApp, it is possible.  But i am not yet supporting this feature yet.
+
+  utter_key_features/callback_appointment:
+    - text:  |
+        Human-BOT can also configured to support Call-Back and Appointment booking features.
+
+        1. Call-Back --> It's a feature to register customer's interest with their details to have one of our Agents call on their contact number.
+        2. Appointment --> It's a feature for customers to book an appointment with future date and time.
+        3. Once the appointment has been accepted by our agent, Customer will get a Appointment confirmation email with Clickable JOIN button to get on
+        4. Audio / Video call with our Agent.
+
+        
+        
+        You can configure these features as part of BOT Profile configuration on our Agent Application.
+        1.Human-BOT can be configured to offer Call-Back and Appointment booking  as part of following scenarios...
+        2.Scenario-1) When customer asks for Agent-Handover and if all your Agents are busy OR if its out of office hours. In this case Human-BOT, provided it has been configured, can detect all agents are busy and offers Apology along with the option of Call-Back, Appointment as options for customer insetad of letting them go empty handed.
+        3. Scenario-2) As a stand alone features. In this case Human-BOT, as part of list of its support options, offers Call-Back and Appointment as options so that customers can opt for either of them based on their convenience.
+        4. Scnario-3) Or combination of both Scenario 1 & 2.
+        5. Because Human-BOT is AI based, it can be modelled and trained to offer all 1, 2 & 3 above as part of its AI Assistant role.
+
+        
+        
+        To make it more clearer, for example i have been trained to do Scenario-3. Let me explain how.
+        1. Scenario-1) If I am not able to answer any of your Questions, then i will offer Agent-Handover to connect you to one of our Agent. But if all of our agents are busy or if its out of office hrs, then i will offer Call-Back, Appointment otions to you.
+        2. Scenario-2) I also offer Call-Back and Appoitnment as standalone features as part of our LIVE DEMO features.
+        3. Hope my explaination is clear."
+
+  utter_key_features/BOTProfile:
+    - text: |
+        **BOTprofile** pretty much capatures the behavior of BOT and what level and kind of support does it offer to its customers.
+        1. BOT Profile is configurable through Agent Application.
+        2. For example a typical BOT profile can be like, the BOT supports Q&A session with Customers along with providing options of Call-Back, Appointment booking to customers
+        3. BOT profile pretty much capatures the essence of behavior our BOT and what level and kind of support does it offer to its customers.
+        4. BOT Profile is configurable through Agent Application.
+        5. For example a typical BOT profile can be like, the BOT supports Q&A session to customers via Web, WhatsApp along with providing options of Call-Back, Appointment booking to customers
+
+  utter_key_features/call_recording:
+    - text: |
+        1. For Quality and auditing purposes all the audio / video calls facilitated through Guidizy widget between your online customer and your Agent
+           are recorded in cluding Audio, Video and Screen sharing that takes place during the call.
+        2. All the recorded calls will be avialable for you / your team to view and download from our Agent Application which
+        3. Call Recording is configurable and can be toggled as part of BOT Profile screen. Calls will be recorded only when the Call Recording is enabled for a given BOT profile.
+        4. For example My BOT Profile has Call Recording enabled, so if  you choose LIVE DEMO --> Agent Handover, you will get on Audio / Video call with our Agent and the call gets recorded.
+
+  utter_key_features/screen_sharing:
+    - text: |
+         1. **Screen sharing** is an additional feature available during the Audio / Video call between customer and Agent.
+         2. This feature allows the customer to share his / her screen display to Agent so that Agent can view what products / services are being browsed.
+         3. This helps Agent provide more accurate guidance to customers to help them to choose right product / service as per their needs."
+
+  utter_key_features/agent_anywhere:
+    - text:  | 
+       Sai to write response for agent_anywhere
+
+  utter_key_features/call_forward:
+    - text: |
+        Sai to write response for call_forward

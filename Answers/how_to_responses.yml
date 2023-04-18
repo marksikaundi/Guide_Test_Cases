@@ -1,0 +1,15 @@
+version: "3.1"
+responses:
+  
+  utter_how_to/widget:
+    - text: Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script  
+  utter_how_to/integrate:
+    - text: Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script
+  utter_how_to/use_guidizy:
+    - text: Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script
+  utter_how_to/use_guidizy_on_mobile:
+    - text: Please inject java script snippet we provide from our C4H Profile screen.
+    - text: use Java Script

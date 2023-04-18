@@ -1,0 +1,128 @@
+version: "3.1"
+nlu:
+- intent: pricing_and_billing/guidizy_minutes
+  examples: |
+    - What is Guidizy Minutes?
+    - Can you explain about Guidizy Minutes?
+    - What do you mean by Guidizy Minutes?
+    - Guidizy Minutes?
+    - How does Guidizy charge for its minutes?
+    - What is the price per minute for Guidizy calls?
+    - Is there a minimum usage requirement for Guidizy minutes?
+    - Are there any setup fees or hidden charges for Guidizy minutes?
+    - Does Guidizy offer volume discounts for large usage of minutes?
+    - How does Guidizy bill for minutes used by agents and customers?
+    - Can Guidizy provide detailed usage reports for minutes used?
+    - Are there any overage charges for exceeding monthly minute usage in Guidizy?
+    - How does Guidizy handle international call charges for minutes?
+    - Can customers pay for Guidizy minutes using different payment methods?
+    - Are there any contracts or commitments required for using Guidizy minutes?
+    - Can customers upgrade or downgrade their Guidizy minutes plan?
+    - Is there a free trial period available for testing Guidizy minutes?
+    - How does Guidizy calculate the duration of each call for billing purposes?
+    - Can customers see their billing history and invoices in Guidizy?
+    - Does Guidizy offer refunds for unused minutes or service disruptions?
+    - What happens if a customer disputes a billing charge in Guidizy?
+    - How does Guidizy ensure transparent and accurate billing for its customers?
+    - What kind of customer support is available for billing and pricing inquiries in Guidizy?
+    - How does Guidizy's pricing for minutes compare to other providers in the market?
+- intent: pricing_and_billing/agent_licensing
+  examples: |
+    - how does Agent licensing work?
+    - Are your agent licenses floatable?
+    - Is Owner Account counted as Agent License?
+    - Can I have more users created than allowed Agent licenses?
+    - How does Guidizy charge for agent licensing?
+    - What is the cost of an agent license in Guidizy?
+    - Are there any volume discounts for purchasing multiple agent licenses?
+    - How does Guidizy bill for agent licenses - monthly, annually, or one-time?
+    - Are there any hidden fees or charges associated with agent licensing in Guidizy?
+    - Is there a minimum number of agent licenses that a customer must purchase in Guidizy?
+    - Can customers add or remove agent licenses from their account in Guidizy?
+    - Does Guidizy offer any trial period for agent licensing?
+    - Can customers upgrade or downgrade their agent license plan in Guidizy?
+    - Are there any penalties or fees for early termination of agent licenses in Guidizy?
+    - How does Guidizy handle billing for agent licenses during periods of inactivity?
+    - Can customers pay for agent licenses using different payment methods in Guidizy?
+    - How does Guidizy ensure secure and reliable billing for agent licensing?
+    - Can customers view their billing history and invoices for agent licensing in Guidizy?
+    - Is there any customer support available for billing and pricing inquiries related to agent licensing in Guidizy?
+    - How does Guidizy's pricing for agent licensing compare to other providers in the market?
+    - What is the duration of an agent license in Guidizy?
+    - How does Guidizy handle renewals of agent licenses?
+    - What happens if a customer exceeds their allocated number of agent licenses in Guidizy?
+    - Can customers purchase additional agent licenses at any time in Guidizy?
+- intent: pricing_and_billing/cancel_subscription
+  examples: |
+    - How to cancel my subscription?
+    - How can customers cancel their subscription in Guidizy?
+    - Is there a fee for canceling a subscription in Guidizy?
+    - Can customers cancel their subscription at any time in Guidizy?
+    - Is there a minimum subscription period that customers must commit to in Guidizy?
+    - How long does it take for a cancellation request to be processed in Guidizy?
+    - Are there any penalties or charges for early cancellation of a subscription in Guidizy?
+    - How does Guidizy handle billing for canceled subscriptions?
+    - Can customers get a refund for any unused portion of their subscription in Guidizy?
+    - Is there a trial period for subscriptions in Guidizy before customers are charged?
+    - Can customers reactivate their subscription after canceling it in Guidizy?
+    - How does Guidizy handle recurring payments for subscriptions?
+    - Can customers still access their account and data after canceling their subscription in Guidizy?
+    - Are there any differences in the cancellation policy for annual vs. monthly subscriptions in Guidizy?
+    - Can customers cancel a subscription on behalf of their team or organization in Guidizy?
+    - How can customers confirm that their subscription has been successfully canceled in Guidizy?
+    - What happens to any customizations or integrations made during the subscription period in Guidizy after cancellation?
+    - Is there any customer support available for canceling subscriptions in Guidizy?
+    - Can customers cancel a subscription via email or phone in Guidizy, or only through the online portal?
+    - How does Guidizy ensure that customers are not charged after canceling their subscription?
+    - Can customers cancel a subscription and receive a prorated refund for the current billing period in Guidizy?
+- intent: pricing_and_billing/upgrade_downgrade_subscription
+  examples: |
+    - How to change ( upgrade / downgrade) my subscription?
+    - Can customers upgrade or downgrade their subscription plan in Guidizy?
+    - Are there any fees associated with upgrading or downgrading a subscription plan in Guidizy?
+    - How can customers upgrade or downgrade their subscription plan in Guidizy?
+    - Is there a minimum or maximum period for upgrading or downgrading a subscription plan in Guidizy?
+    - How does Guidizy handle billing for subscription plan upgrades or downgrades?
+    - Can customers change their subscription plan at any time in Guidizy?
+    - How does Guidizy determine the pricing for upgraded or downgraded subscription plans?
+    - What happens to any remaining balance or credits in a customer's account when they upgrade or downgrade their subscription plan in Guidizy?
+    - Can customers receive a refund for any unused portion of their subscription plan if they downgrade in Guidizy?
+    - Are there any differences in the upgrade or downgrade policy for annual vs. monthly subscription plans in Guidizy?
+    - How does Guidizy ensure that customers are not overcharged or undercharged when upgrading or downgrading their subscription plan?
+    - Can customers upgrade or downgrade a subscription plan on behalf of their team or organization in Guidizy?
+    - Is there any customer support available for upgrading or downgrading subscription plans in Guidizy?
+    - Can customers switch between different payment methods when upgrading or downgrading their subscription plan in Guidizy?
+    - How can customers confirm that their subscription plan has been successfully upgraded or downgraded in Guidizy?
+    - How does Guidizy handle customizations or integrations made during the previous subscription plan when upgrading or downgrading?
+    - Can customers upgrade or downgrade their subscription plan via email or phone in Guidizy, or only through the online portal?
+    - How does Guidizy ensure that customers do not lose access to any important features or data when upgrading or downgrading their subscription plan?
+    - Can customers upgrade or downgrade their subscription plan multiple times in Guidizy, or only once per billing period?
+    - Can customers receive a prorated refund or credit for any price difference between the previous and new subscription plan in Guidizy?
+- intent: pricing_and_billing/cancel_subscription_reduntant
+  examples: |
+    - what happens if I cancel my subscription?
+- intent: pricing_and_billing/change_subscription
+  examples: |
+    - How to change ( upgrade / downgrade) my subscription?	
+    - How do I change my subscription plan with Guidizy?
+    - What are the steps to upgrade my subscription on Guidizy?
+    - Can I downgrade my subscription plan on Guidizy?
+    - How do I adjust my billing cycle on Guidizy?
+    - Will changing my subscription plan affect my existing conversations on Guidizy?
+    - How do I add more users to my Guidizy subscription?
+    - What happens if I need to reduce the number of users on my Guidizy subscription?
+    - Can I pause my Guidizy subscription temporarily?
+    - How do I reactivate a paused subscription on Guidizy?
+    - What is the process for canceling my Guidizy subscription?
+    - Are there any cancellation fees for Guidizy subscriptions?
+    - How do I change my payment method for Guidizy?
+    - Can I change my subscription plan multiple times on Guidizy?
+    - What happens to my unused minutes if I change my Guidizy subscription plan?
+    - Are there any limitations on how often I can change my Guidizy subscription plan?
+    - How do I view my current Guidizy subscription details?
+    - Are there any discounts available for upgrading or downgrading my Guidizy subscription?
+    - Can I change my subscription plan through the Guidizy mobile app?
+    - How do I know if my new subscription plan has been successfully activated on Guidizy?
+    - Is there a grace period for changing my Guidizy subscription plan before my next billing cycle?
+
+

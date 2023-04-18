@@ -1,0 +1,116 @@
+version: "3.1"
+nlu:
+- intent: how_to/widget
+  examples: |
+    - how to inject guiidzy widget?
+    - how to inject widget?
+    - how to use widget?
+    - What is the purpose of the guidizy widget?
+    - Where can I find the guidizy widget code?
+    - What programming languages are compatible with the guidizy widget?
+    - How do I embed the guidizy widget on my website?
+    - Can I customize the appearance of the guidizy widget?
+    - How do I change the size of the guidizy widget?
+    - Is it possible to modify the behavior of the guidizy widget?
+    - What are the benefits of using the guidizy widget?
+    - How can I integrate the guidizy widget with my existing website?
+    - What are some best practices for using the guidizy widget?
+    - Can I add multiple guidizy widgets on the same page?
+    - How do I test if the guidizy widget is working properly?
+    - Is there a limit to the number of guidizy widgets I can use on my website?
+    - Can I use the guidizy widget on multiple websites?
+    - How do I troubleshoot any issues with the guidizy widget?
+    - Is there a user guide available for the guidizy widget?
+    - What is the cost of using the guidizy widget?
+    - How do I set up an account for the guidizy widget?
+    - What is the support process for the guidizy widget?
+    - Can I use the guidizy widget on mobile devices?
+    - How do I make the guidizy widget responsive?
+    - What are the technical requirements for using the guidizy widget?
+    - How do I ensure that the guidizy widget is accessible to all users?
+    - How do I add tracking to the guidizy widget?
+    - What analytics can I track with the guidizy widget?
+    - How do I optimize the performance of the guidizy widget?
+    - Can I use the guidizy widget with other third-party tools?
+    - How do I add the guidizy widget to a CMS platform?
+    - How do I integrate the guidizy widget with my email marketing platform?
+    - How do I use the guidizy widget to capture leads?
+    - Can I use the guidizy widget to conduct surveys?
+    - How do I set up the guidizy widget to receive payments?
+    - How do I integrate the guidizy widget with my CRM system?
+    - Can I use the guidizy widget to create quizzes?
+    - How do I make the guidizy widget interactive?
+    - Can I use the guidizy widget for customer support?
+    - How do I customize the messages displayed by the guidizy widget?
+    - How do I add images and videos to the guidizy widget?
+    - How do I add social media sharing buttons to the guidizy widget?
+    - Can I use the guidizy widget for A/B testing?
+    - How do I add the guidizy widget to a landing page?
+    - How do I add the guidizy widget to a blog post?
+    - How do I add the guidizy widget to a product page?
+    - How do I add the guidizy widget to a checkout page?
+    - Can I use the guidizy widget for event registration?
+    - How do I add the guidizy widget to a webinar registration page?
+    - Can I use the guidizy widget for appointment scheduling?
+    - How do I integrate the guidizy widget with my scheduling software?
+    - How do I use the guidizy widget to collect feedback?
+- intent: how_to/integrate
+  examples: |
+    - can you explain widget integration?
+    - how to use guidizy on my website?
+    - Can I use the guidizy widget on mobile devices?
+    - How do I make the guidizy widget responsive?
+    - What are the technical requirements for using the guidizy widget?
+    - How do I ensure that the guidizy widget is accessible to all users?
+    - How do I add tracking to the guidizy widget?
+    - What analytics can I track with the guidizy widget?
+    - How do I optimize the performance of the guidizy widget?
+    - Can I use the guidizy widget with other third-party tools?
+    - How do I add the guidizy widget to a CMS platform?
+    - How do I integrate the guidizy widget with my email marketing platform?
+    - How do I make the guidizy widget interactive?
+    - Can I use the guidizy widget for customer support?
+    - How do I customize the messages displayed by the guidizy widget?
+    - How do I add images and videos to the guidizy widget?
+    - How do I add social media sharing buttons to the guidizy widget?
+    - Can I use the guidizy widget for A/B testing?
+    - How do I add the guidizy widget to a landing page?
+    - How do I add the guidizy widget to a blog post?
+    - How do I add the guidizy widget to a product page?
+    - How do I add the guidizy widget to a checkout page?
+
+- intent: how_to/use_guidizy
+  examples: |
+    - How to use Guidizy?
+    - How to inject Guidzy widget on website?
+    - How to inject Guidzy widget on online channel?
+    - Can I use the guidizy widget for event registration?
+    - How do I add the guidizy widget to a webinar registration page?
+    - Can I use the guidizy widget for appointment scheduling?
+    - How do I integrate the guidizy widget with my scheduling software?
+    - How do I use the guidizy widget to collect feedback?
+    - How do I use the guidizy widget to capture leads?
+    - Can I use the guidizy widget to conduct surveys?
+    - How do I set up the guidizy widget to receive payments?
+    - How do I integrate the guidizy widget with my CRM system?
+    - Can I use the guidizy widget to create quizzes?
+- intent: how_to/use_guidizy_on_mobile
+  examples: |
+    - How to use Guidizy on Mobiles, Tablets?
+    - What is the guidizy widget, and how is it used on mobile devices?
+    - Is the guidizy widget optimized for mobile devices?
+    - How do I access the guidizy widget on my mobile device?
+    - Can I use the guidizy widget on both Android and iOS devices?
+    - Is there a mobile app for the guidizy widget, or is it only accessible through a web browser?
+    - How do I navigate the guidizy widget on a mobile device?
+    - How do I scroll through the different options available in the guidizy widget on a mobile device?
+    - How do I select an option in the guidizy widget on a mobile device?
+    - Can I customize the look and feel of the guidizy widget on a mobile device?
+    - How do I adjust the size of the guidizy widget on a mobile device?
+    - Is it possible to modify the behavior of the guidizy widget on a mobile device?
+    - How do I ensure that the guidizy widget is responsive on different mobile devices?
+    - How do I test if the guidizy widget is working properly on a mobile device?
+    - How do I troubleshoot any issues with the guidizy widget on a mobile device?
+    - Can I integrate the guidizy widget with my mobile app?
+    - How do I ensure that the guidizy widget is accessible to all users on mobile devices?
+    -How do I make sure that the guidizy widget is GDPR compliant on mobile devices?

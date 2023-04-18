@@ -1,0 +1,377 @@
+version: "3.1"
+nlu:
+- intent: key_features/list
+  examples: |
+    - what are the key features of Guidizy?
+    - What is Guidizy, and how does it work?
+    - What are the main features of Guidizy?
+    - Can Guidizy be used for lead generation?
+    - How does Guidizy help with customer engagement?
+    - Can Guidizy be used for customer support?
+    - What type of analytics does Guidizy provide?
+    - How does Guidizy help with website optimization?
+    - Can Guidizy be used for A/B testing?
+    - Does Guidizy integrate with other marketing tools?
+    - How does Guidizy help with social media marketing?
+    - What type of customization options are available with Guidizy?
+    - Can Guidizy be used for email marketing?
+    - Does Guidizy provide templates for creating campaigns?
+
+- intent: key_features/human_bot
+  examples: |
+    - can you explain the use of Human-BOT
+    - why i need HUman-Bot?
+    - brief me about HUman-Bot
+    - use of Humanbot?
+    - advatnage of Human-BOt?
+    - What is the Human_bot functionality in Guidizy?
+    - How does Guidizy's Human_bot understand user intent and context?
+    - What kind of personalized conversations can be had with Guidizy's Human_bot?
+    - Does Guidizy's Human_bot integrate with messaging platforms like Facebook Messenger and WhatsApp?
+    - How many incoming messages and inquiries can Guidizy's Human_bot handle?
+    - Does Guidizy's Human_bot use machine learning to improve its responses over time?
+    - Can Guidizy's Human_bot transfer the chat to live agents for complex queries?
+    - Does Guidizy's Human_bot support communication in multiple languages?
+    - Can Guidizy's Human_bot provide personalized product recommendations based on user behavior?
+    - Does Guidizy's Human_bot integrate with CRM and marketing automation tools?
+    - What kind of reporting and analytics does Guidizy's Human_bot provide?
+    - How easy is it to integrate Guidizy's Human_bot with other tools?
+    - Can Guidizy's Human_bot handle and respond to customer feedback?
+    - Does Guidizy's Human_bot have a personality or tone of voice?
+    - What kind of training or set up is required to use Guidizy's Human_bot?
+    - Can Guidizy's Human_bot be customized to match a brand's voice or tone?
+    - Does Guidizy's Human_bot use sentiment analysis to gauge user mood?
+    - Can Guidizy's Human_bot handle different types of queries, such as support, sales, or general inquiries?
+    - What kind of response time can be expected from Guidizy's Human_bot?
+    - Does Guidizy's Human_bot use natural language generation (NLG) to respond to users?
+    - How secure is the data collected and handled by Guidizy's Human_bot?
+    - Does Guidizy's Human_bot have the ability to learn and adapt to user preferences?
+    - Can Guidizy's Human_bot handle multiple conversations simultaneously?
+    - Does Guidizy's Human_bot use chat history to provide more personalized responses?
+    - How customizable is Guidizy's Human_bot's user interface?
+    - Can Guidizy's Human_bot be trained to handle specific industry-specific terminology or jargon?
+    - Does Guidizy's Human_bot have a limit to the number of conversations it can handle at once?
+    - What kind of user feedback does Guidizy's Human_bot collect and use to improve its performance?
+    - Does Guidizy's Human_bot integrate with social media platforms like Twitter and Instagram?
+    - Can Guidizy's Human_bot provide users with quick access to resources like FAQs or support documentation?
+    - What kind of accuracy can be expected from Guidizy's Human_bot's responses?
+    - Can Guidizy's Human_bot handle sensitive or confidential user data?
+    - How is Guidizy's Human_bot trained to understand different user intents?
+    - Can Guidizy's Human_bot provide users with options to escalate the conversation to a live agent?
+    - How does Guidizy's Human_bot prioritize and handle different types of user inquiries?
+    - Does Guidizy's Human_bot have the ability to answer questions about product availability and pricing?
+    - Can Guidizy's Human_bot integrate with existing customer support tools and systems?
+    - How easy is it to implement Guidizy's Human_bot on a website or application?
+    - Can Guidizy's Human_bot handle voice-based communication?
+    - Does Guidizy's Human_bot have the ability to recognize and respond to emojis or other visual cues?
+    - Can Guidizy's Human_bot handle requests for personal information, such as email addresses or phone numbers?
+ 
+- intent: key_features/BOTProfile
+  examples: |
+    - can you explain BOT profile?
+    - can you explain Human-BOT profile?
+    - What are Bot Profiles?
+    - What is Human-BOT profile?
+    - What does the BOTProfile feature in Guidizy offer?
+    - How can the BOTProfile feature in Guidizy benefit my business?
+    - What are the main functionalities of the BOTProfile feature in Guidizy?
+    - Is the BOTProfile feature in Guidizy easy to use for beginners?
+    - Can I customize the BOTProfile feature in Guidizy to fit my brand's aesthetic?
+    - What type of data can I gather with the BOTProfile feature in Guidizy?
+    - How does the BOTProfile feature in Guidizy enhance the user experience?
+    - Can the BOTProfile feature in Guidizy help me personalize interactions with customers?
+    - How does the BOTProfile feature in Guidizy improve engagement with my audience?
+    - Is the BOTProfile feature in Guidizy available in multiple languages?
+    - Can I use the BOTProfile feature in Guidizy to offer personalized recommendations to customers?
+    - How does the BOTProfile feature in Guidizy collect and utilize customer data?
+    - Does the BOTProfile feature in Guidizy offer any analytics or reporting tools?
+    - Can I integrate the BOTProfile feature in Guidizy with my existing CRM system?
+    - What type of customer insights can I gain from using the BOTProfile feature in Guidizy?
+    - Can the BOTProfile feature in Guidizy help me streamline my customer service process?
+    - How does the BOTProfile feature in Guidizy assist with lead generation?
+    - Does the BOTProfile feature in Guidizy support cross-platform integration?
+    - Can I use the BOTProfile feature in Guidizy to provide personalized content to customers?
+    - How does the BOTProfile feature in Guidizy help with customer retention?
+    - Can the BOTProfile feature in Guidizy assist with A/B testing?
+    - What are the key differences between the BOTProfile feature in Guidizy and other chatbot platforms?
+    - How does the BOTProfile feature in Guidizy compare to other customer engagement tools?
+    - Does the BOTProfile feature in Guidizy offer any unique features or functionalities?
+    - How can I leverage the BOTProfile feature in Guidizy to increase customer satisfaction?
+    - Can the BOTProfile feature in Guidizy help me identify customer pain points?
+    - How does the BOTProfile feature in Guidizy handle user authentication?
+    - Can I use the BOTProfile feature in Guidizy to collect customer feedback?
+    - How does the BOTProfile feature in Guidizy handle sensitive customer information?
+    - Can I use the BOTProfile feature in Guidizy to offer customized promotions to customers?
+    - How does the BOTProfile feature in Guidizy help with sales conversion?
+    - Can the BOTProfile feature in Guidizy assist with account creation and management?
+    - How does the BOTProfile feature in Guidizy ensure user privacy and security?
+    - Can I use the BOTProfile feature in Guidizy to manage user permissions and access?
+    - How does the BOTProfile feature in Guidizy handle multilingual support?
+    - Can I use the BOTProfile feature in Guidizy to offer real-time support to customers?
+    - How does the BOTProfile feature in Guidizy handle queries and requests from customers?
+    - Can I use the BOTProfile feature in Guidizy to offer product recommendations based on customer preferences?
+    - How does the BOTProfile feature in Guidizy handle chatbot-to-human handoff?
+    - Can the BOTProfile feature in Guidizy be integrated with social media platforms?
+    - How does the BOTProfile feature in Guidizy handle user identification
+
+- intent: key_features/web_whatsapp
+  examples: |
+    - what is web and WhatsApp cahnnel?
+    - Web and WhatsApp?
+    - Can you explain your support for Web Channel?
+    - Can you explain your support for WhatsApp?
+    - What channels do you support?
+    - how can i try web channel with you?
+    - how can i try web channel option with you?
+    - how can i try web channel feature with you?
+    - how can i test web channel with you?
+    - how can i test web channel option with you?
+    - how can i test web channel feature with you?
+    - how can i try WhatsApp channel with you?
+    - how can i try WhatsApp channel option with you?
+    - how can i try WhatsApp channel feature with you?
+    - how can i test WhatsApp channel with you?
+    - how can i test WhatsApp channel option with you?
+    - how can i test WhatsApp channel feature with you?
+    - What is web WhatsApp and what does it offer?
+    - How does web WhatsApp work?
+    - Can I access all of the features of WhatsApp on the web version?
+    - Is web WhatsApp easy to use?
+    - How can I get started with web WhatsApp?
+    - What are the main differences between the mobile and web versions of WhatsApp?
+    - Can I use web WhatsApp without a mobile phone?
+    - How does web WhatsApp handle security and privacy?
+    - Can I use web WhatsApp on any device?
+    - What are the key features of the chat interface in web WhatsApp?
+    - Can I send and receive media files on web WhatsApp?
+    - How does web WhatsApp handle group chats?
+    - Can I use web WhatsApp to make voice or video calls?
+    - Can I use web WhatsApp to send and receive messages from international contacts?
+    - What are the key features of the contact management system in web WhatsApp?
+    - How does web WhatsApp handle message archiving and searching?
+    - Can I use web WhatsApp to schedule messages?
+    - What is the maximum file size I can send through web WhatsApp?
+    - Can I use web WhatsApp to send voice messages?
+    - How does web WhatsApp handle message encryption?
+    - Can I use web WhatsApp to send and receive messages in languages other than English?
+    - What are the key features of the notification system in web WhatsApp?
+    - How does web WhatsApp handle message forwarding?
+    - Can I use web WhatsApp to send and receive messages anonymously?
+    - What are the key features of the settings menu in web WhatsApp?
+    - How does web WhatsApp handle message deletion?
+    - Can I use web WhatsApp to send messages to multiple recipients?
+    - What is the maximum number of participants in a group chat on web WhatsApp?
+    - Can I use web WhatsApp to mute notifications from specific contacts or groups?
+    - How does web WhatsApp handle message synchronization between devices?
+    - Can I use web WhatsApp to mark messages as unread?
+    - What are the key features of the profile settings in web WhatsApp?
+    - How does web WhatsApp handle message delivery status?
+    - Can I use web WhatsApp to block contacts or report spam messages?
+    - What are the key features of the account settings in web WhatsApp?
+    - How does web WhatsApp handle message backup and restore?
+    - Can I use web WhatsApp to change my display picture or status?
+    - What are the key features of the security settings in web WhatsApp?
+    - How does web WhatsApp handle message notifications for muted chats?
+    - Can I use web WhatsApp to use WhatsApp Business features?
+    - What are the key features of the chat backup settings in web WhatsApp?
+    - How does web WhatsApp handle message translation?
+    - Can I use web WhatsApp to create custom stickers? 
+    - What are the key features of the media settings in web WhatsApp?
+    - How does web WhatsApp handle message delivery to offline contacts?
+    - Can I use web WhatsApp to send messages to phone numbers not in my contact list?
+    - What are the key features of the network settings in web WhatsApp?
+    - How does web WhatsApp handle message forwarding to multiple recipients?
+    - Can I use web WhatsApp to send messages to landline numbers?
+    - What are the key features of the two-step verification system in web WhatsApp?
+    - How does web WhatsApp handle message deletion in groups?
+    - Can I use web WhatsApp to access my chat history from multiple devices?
+    - What are the key features of the data and storage usage settings in web WhatsApp?
+    - How does web WhatsApp handle message delivery to contacts with limited internet connectivity?
+
+- intent: key_features/callback_appointment
+  examples: |
+    - What is Callback?
+    - Callback?
+    - how call back works?
+    - can you explain about call back?
+    - can you breif about call back?
+    - when will call back option be offered?
+    - how can i try call back option with you?
+    - how can i try call back feature with you?
+    - how can i test call back with you?
+    - how can i test call back option with you?
+    - how can i test call back feature with you?
+    - What is appointment?
+    - appointment?
+    - how appoint works?
+    - can you explain about appointment?
+    - can you breif about appointment?
+    - when will appointment option be offered?
+    - how can i try appointment option with you?
+    - how can i try appointment feature with you?
+    - how can i test appointment with you?
+    - how can i test appointment option with you?
+    - how can i test appointment feature with you?
+    - What is a callback appointment feature?
+    - How does the callback appointment feature work?
+    - Can the callback appointment feature be integrated into any software or service?
+    - What are the main benefits of using a callback appointment feature?
+    - How can businesses use the callback appointment feature to improve customer service?
+    - Can the callback appointment feature be customized to suit specific business needs?
+    - How does the callback appointment feature handle appointment scheduling and reminders?
+    - What are the key features of the callback appointment interface?
+    - Can the callback appointment feature be used for both inbound and outbound calls?
+    - How does the callback appointment feature handle call volume and wait times?
+    - What are the key features of the callback appointment dashboard?
+    - How does the callback appointment feature handle call routing and queuing?
+    - Can the callback appointment feature be used to track customer engagement and satisfaction?
+    - How does the callback appointment feature handle missed or rescheduled appointments?
+    - What are the key features of the callback appointment reporting and analytics system?
+    - How does the callback appointment feature handle customer information and data privacy?
+    - Can the callback appointment feature be used for sales and marketing purposes?
+    - How does the callback appointment feature integrate with other business software or services?
+    - What are the key features of the callback appointment scheduling system?
+    - Can the callback appointment feature be used for customer feedback collection?
+    - How does the callback appointment feature handle time zone differences?
+    - Can the callback appointment feature be used for virtual appointments?
+    - What are the key features of the callback appointment notification system?
+    - How does the callback appointment feature handle appointment confirmation and rescheduling?
+    - Can the callback appointment feature be used for multi-channel customer support?
+    - What are the key features of the callback appointment queue management system?
+    - How does the callback appointment feature handle call recording and analysis?
+    - Can the callback appointment feature be used for customer retention and loyalty programs?
+    - What are the key features of the callback appointment wait time management system?
+    - How does the callback appointment feature handle call transfers and escalations?
+    - Can the callback appointment feature be used for customer self-service options?
+    - What are the key features of the callback appointment CRM integration?
+    - How does the callback appointment feature handle appointment cancellations and no-shows?
+    - Can the callback appointment feature be used for personalized customer experiences?
+    - What are the key features of the callback appointment call-back system?
+    - How does the callback appointment feature handle call tagging and categorization?
+    - Can the callback appointment feature be used for employee training and performance monitoring?
+    - What are the key features of the callback appointment call scripting system?
+
+
+- intent: key_features/call_recording
+  examples: |
+    - What is Call Recording?
+    - How does call recording work
+    - call recording?
+    - Can you breif about call recording?
+    - Can you breif about call recording feature?
+    - What do you mean by Call recording?
+    - how can i try call recording with you?
+    - how can i try call recording option with you?
+    - how can i try call recording feature with you?
+    - how can i test call recording with you?
+    - how can i test call recording option with you?
+    - how can i test call recording feature with you?
+    - What are the essential functions of call recording?
+    - What makes call recording a critical feature in communication software or services?
+    - How can call recording enhance business operations?
+    - What kind of benefits does call recording offer to companies and organizations?
+    - What are the top features of call recording?
+    - How does call recording help businesses ensure compliance?
+    - What are the implications of not having call recording in place?
+    - What kind of industries typically use call recording?
+    - Can call recording be customized to fit specific business needs?
+    - What is the purpose of call recording in customer service?
+    - What are the technical requirements for call recording to function correctly?
+    - How can businesses leverage call recording to improve their customer experience?
+    - What are the legal requirements for call recording?
+    - What is the impact of call recording on data privacy regulations?
+    - How can call recording be integrated with other business systems and tools?
+    - What are the limitations of call recording?
+    - Can call recording be used for training purposes?
+    - What kind of security measures are in place to protect call recordings?
+    - How does call recording contribute to better team collaboration?
+    - What is the role of call recording in sales and marketing?
+    - How can call recording help businesses monitor and improve their call center operations?
+    - What kind of analytics and insights can be gained from call recordings?
+    - What is the impact of call recording on overall customer satisfaction?
+    - Can call recording be used to detect and prevent fraud?
+    - What kind of feedback do businesses typically receive from call recording analysis?
+
+- intent: key_features/screen_sharing
+  examples: |
+    - What is Screen Sharing?
+    - Screen sharing?
+    - can you brief about screen sharing
+    - Can you breif about screen sharing feature?
+    - what do you mean by screen sharing?
+    - What are the main features of screen sharing in Guidizy?
+    - How does screen sharing work in Guidizy?
+    - What can you do with the screen sharing feature in Guidizy?
+    - What are the benefits of using the screen sharing feature in Guidizy?
+    - Can you share your entire screen with screen sharing in Guidizy?
+    - Is screen sharing available in all Guidizy plans?
+    - How many people can join a screen sharing session in Guidizy?
+    - Can you annotate during a screen sharing session in Guidizy?
+    - Does Guidizy offer high-quality screen sharing?
+    - Can you record a screen sharing session in Guidizy?
+    - Are there any limitations to screen sharing in Guidizy?
+    - Can you share multiple screens at once in Guidizy?
+    - How does screen sharing affect the performance of Guidizy?
+    - Is screen sharing secure in Guidizy?
+    - Can you share only a specific application or window with screen sharing in Guidizy?
+    - How do you start a screen sharing session in Guidizy?
+    - Can you allow control of your screen during a screen sharing session in Guidizy?
+    - Is it possible to share audio with screen sharing in Guidizy?
+    - Can you set permissions for screen sharing in Guidizy?
+
+- intent: key_features/agent_anywhere
+  examples: |
+    - what is Agent anywhere?
+    - can you explain agent anywhere?
+    - can you brief agent anywhere?
+    - agent anywhere?
+    - What do you mean by Agetnt anywhere?
+    - What is Agent Anywhere in Guidizy?
+    - How does Agent Anywhere facilitate remote work?
+    - What are the benefits of using Agent Anywhere in Guidizy?
+    - Can agents access Guidizy from anywhere with Agent Anywhere?
+    - Is multi-device support available in Agent Anywhere?
+    - How does real-time monitoring work in Agent Anywhere?
+    - Are there any collaboration tools available in Agent Anywhere?
+    - Can agents customize their settings in Agent Anywhere?
+    - How does Agent Anywhere enhance productivity?
+    - Does Agent Anywhere require any additional software or hardware?
+    - Can agents use Agent Anywhere on their mobile devices?
+    - Are there any security measures in place for Agent Anywhere?
+    - How does Agent Anywhere differ from other remote work tools?
+    - Can supervisors manage their team effectively with Agent Anywhere?
+    - Are there any limitations to using Agent Anywhere?
+    - What training is required for agents to use Agent Anywhere effectively?
+    - Can Agent Anywhere be integrated with other platforms?
+    - What are the system requirements for using Agent Anywhere?
+    - How does Agent Anywhere ensure smooth communication among team members?
+    - What feedback have users given about Agent Anywhere?
+
+- intent: key_features/call_forward
+  examples: |
+    - what is call forward?
+    - can  you explain about call forward?
+    - call forward?
+    - can you brief call forward?
+    - waht do you mean by call forward?
+    - What is Call Forward in Guidizy?
+    - How does Call Forward work?
+    - What are the benefits of using Call Forward in Guidizy?
+    - Can calls be routed to specific agents with Call Forward?
+    - How does customizable call forwarding settings work in Guidizy?
+    - Is time-based call routing available with Call Forward in Guidizy?
+    - Does Call Forward allow identification of callers?
+    - Are there any limitations to the number of calls that can be forwarded with Call Forward?
+    - Can Call Forward be integrated with other communication channels?
+    - How does Call Forward enhance customer experience?
+    - Can Call Forward be used for both inbound and outbound calls?
+    - Is there a cost associated with using Call Forward in Guidizy?
+    - How does Call Forward compare to traditional call routing methods?
+    - Can Call Forward be used for international calls?
+    - What is the process for setting up Call Forward in Guidizy?
+    - What happens if a forwarded call goes unanswered?
+    - Can agents customize their call forwarding preferences in Guidizy?
+    - Is there a limit to the number of forwarding options available with Call Forward?
+    - How does Call Forward ensure the privacy and security of customer data?
+    - What feedback have users given about Call Forward in Guidizy?
+ 
